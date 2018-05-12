@@ -1,5 +1,7 @@
 # graphql-playlist
 
+GraphQL + React + Mongo
+
 ## Server
 $ cd server
 $ yarn

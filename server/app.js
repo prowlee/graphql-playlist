@@ -10,9 +10,7 @@ const app = express();
 app.use(cors());
 
 // connect to mongo
-mongoose.connect(
-  'mongodb://ninjia:31415926@ds131826.mlab.com:31826/gql-ninjia'
-);
+mongoose.connect('mongodb://ninjia:secret@ds131826.mlab.com:31826/gql-ninjia');
 mongoose.connection.once('open', () => {
   console.log('connected to database');
 });
